@@ -1,0 +1,250 @@
+<mxfile host="65bd71144e">
+    <diagram id="UxdTxoQiAhu4JxqsCREX" name="Page-1">
+        <mxGraphModel dx="1371" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FCFCFC;rounded=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="8" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Jimmy va au supermarché se procurer des citrons, du sucres et de l'eau fraiche." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry y="-890" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;fontColor=#FCFCFC;rounded=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="9" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="framboises" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="16">
+                    <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+                        <mxPoint x="2" y="-12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FCFCFC;rounded=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="9" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="pamplemousses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="17">
+                    <mxGeometry x="-0.3486" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Jimmy veut un autre agrume" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;rounded=1;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-10" y="-760" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="12" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Jour 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="70">
+                    <mxGeometry x="-0.2373" y="-2" relative="1" as="geometry">
+                        <mxPoint x="2" y="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="C'est l'été Jimmy est pauvre et a besoin d'argent. Sa mère lui raconte qu'elle opérait un kisoque de limonade lorsqu'elle était jeune. Jimmy décide de s'y lancer. Jimmy fait du profit dès le premiers jour! Son voinsin rodrigue est jaloux, il décide de lui faire compétition. Jimmy doit avoir le kiosque le plus populaire du village." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="-60" y="-1150" width="300" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FCFCFC;strokeColor=#FFFFFF;" edge="1" parent="1" source="13" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Jour 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="23">
+                    <mxGeometry x="-0.1579" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Jimmy remporte la journée avec le plus de limonade vendue. Il fint sa journée devant la télé. Au nouvelle on raconte qu'une évasion de singe a eu lieu" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="-22.5" y="-550" width="225" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FCFCFC;strokeColor=#FFFFFF;" edge="1" parent="1" source="14" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="510" y="-810"/>
+                            <mxPoint x="370" y="-870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="La limonade de rodrigue est plus populaire, Jimmy abandonne." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="-730" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="22" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Jimmy va au supermarché se procurer des aliments pour sa limonade. Il est inpiré par ce qu'on a raconté au &lt;br&gt;nouvelle hier." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="-390" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="28" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="mangues" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="32">
+                    <mxGeometry x="-0.2443" y="1" relative="1" as="geometry">
+                        <mxPoint y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="28" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="89.99999999999977" y="-40" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="Bananes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="33">
+                    <mxGeometry x="0.0202" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Que devrait-il prendre?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry y="-240" width="180" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="31" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="510" y="-620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;span style=&quot;color: rgb(252, 252, 252);&quot;&gt;La limonade de son rival est plus populaire, Jimmy abandonne.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="-220" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="38" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Glacons" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="40">
+                    <mxGeometry x="-0.0647" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="38" target="39">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-90" y="130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Plus de sucres" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="42">
+                    <mxGeometry x="-0.1391" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;elbow=vertical;strokeColor=#FFFFFF;" edge="1" parent="1" source="38" target="39">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="120"/>
+                            <mxPoint x="290" y="130"/>
+                            <mxPoint x="270" y="130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Menthe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="43">
+                    <mxGeometry x="-0.1523" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Jimmy possède &lt;br&gt;un peu plus d'argent&lt;br&gt;&amp;nbsp;il décide de&amp;nbsp;prendre&lt;br&gt;&amp;nbsp;un suplément." style="rhombus;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="-30" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;fontColor=#FFFFFF;elbow=vertical;strokeColor=#FFFFFF;" edge="1" parent="1" source="39" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Jour 3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="51">
+                    <mxGeometry x="-0.3375" y="-3" relative="1" as="geometry">
+                        <mxPoint x="3" y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Jimmy remporte la journée avec le plus de limonade vendue. Il fint sa journée devant la télé. Au nouvelle on annonce une canicule et on raconte que le président c'est fait enlevé par des&lt;br&gt;extraterrestres." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="-22.5" y="210" width="225" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="50" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Jimmy va au supermarché se procurer des aliments pour sa limonade. Il est inpiré par ce qu'on a raconté au&lt;br&gt;nouvelle hier." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="-22.5" y="390" width="225" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;elbow=horizontal;strokeColor=#FFFFFF;" edge="1" parent="1" source="52" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Goyaves" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="57">
+                    <mxGeometry x="0.1958" relative="1" as="geometry">
+                        <mxPoint x="-14" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="52" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Kiwi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="63">
+                    <mxGeometry x="-0.1984" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;elbow=vertical;strokeColor=#FFFFFF;" edge="1" parent="1" source="52" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="Poires&lt;br&gt;cactus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="67">
+                    <mxGeometry x="-0.0275" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="Que devrait-il prendre?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="540" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="55" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="510" y="-180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;span style=&quot;color: rgb(252, 252, 252);&quot;&gt;Rodrigue à vendu plus de limonade que toi. Il se moque de toi pour avoir pris des Goyaves&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="570" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="61" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Bravo! Le kiosque de limonade à &lt;br&gt;Jimmy à été le plus populaire pendant 3 jours consécutifs. Furieux, Rodrigue rentre chez lui." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="-22.5" y="730" width="225" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="66" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-320" y="-220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="&lt;span style=&quot;color: rgb(252, 252, 252);&quot;&gt;Les extraterrestres ne sont pas d'accord avec cette décision. Ils capturent Jimmy.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="-290" y="570" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Bravo! Le kiosque de limonade à &lt;br&gt;Jimmy à été le plus populaire pendant 3 jours consécutifs. Furieux, Rodrigue rentre chez lui." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="-22.5" y="1050" width="225" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="74" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Non" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="78">
+                    <mxGeometry x="-0.2222" y="-3" relative="1" as="geometry">
+                        <mxPoint x="5" y="-13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;fontColor=#FFFFFF;elbow=vertical;strokeColor=#FFFFFF;" edge="1" parent="1" source="74" target="73">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Oui" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="79">
+                    <mxGeometry x="-0.2857" y="2" relative="1" as="geometry">
+                        <mxPoint x="-2" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="Il fait 40˚C!! &lt;br&gt;Les gens ont chauds!&lt;br&gt;Avez-vous des glaçons?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="870" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="76" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="510" y="760"/>
+                            <mxPoint x="490" y="930"/>
+                            <mxPoint x="490" y="950"/>
+                            <mxPoint x="510" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="&lt;font color=&quot;#fcfcfc&quot;&gt;La limonade n'est plus fraiche. Les clients la crache et demande à Jimmy de se faire rembourser.&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="900" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;h1 style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;Questions&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Genres:&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt; Indie, simulation&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Inspirations:&lt;/b&gt; Aucunes&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Nom:&lt;/b&gt; Lemon-Made Lemonade&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Palette:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;-&amp;nbsp;FEB2B4&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;-&amp;nbsp;FEDCDC&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;-&amp;nbsp;F2F2F2&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;-&amp;nbsp;FFEAA2&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;-&amp;nbsp;FCE16D&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;-&amp;nbsp;FCD639&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="-1120" width="400" height="400" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
