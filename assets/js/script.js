@@ -30,7 +30,7 @@ const chapters = {
     titre: "J'ai trop d'argent",
     description:
       "Jimmy possède un peu plus d'argent. Il décide de prendre un supplément.",
-    image: "",
+    image: "./assets/images/fruits-3.png",
     boutons: [
       { titre: "Sucre", destination: "interlude2" },
       { titre: "Menthe", destination: "interlude2" },
@@ -166,7 +166,3 @@ function goToChapter(chapterName) {
 }
 
 goToChapter("debut");
-
-goToChapter("debut");
-console.log(goToChapter("debut"));
-console.log(goToChapter());

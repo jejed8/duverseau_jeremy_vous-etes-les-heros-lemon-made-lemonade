@@ -4,10 +4,11 @@
 }
 
 :root {
-  --rouge: #feb2b4;
-  --rose: #fedcdc;
-  --pale: #fbf2f2;
-  --banane: #ffeaa2;
+  --rouge: #ffa9ab;
+  --rose: #ffdcdc;
+  --mint: #d6e9d5;
+  --pale: #fff0eb;
+  --banane: #ffebb9;
   --citron: #fce16d;
   --jaune: #fcd639;
   --maron: #ac8167;
@@ -19,7 +20,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: var(--banane);
+  background-color: var(--mint);
+  background-image: url(/assets/images/polka_dots.svg);
+  stroke: #6c816b;
+  background-repeat: no-repeat;
 }
 
 #jeu {
@@ -30,11 +34,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--citron);
+  background-color: var(--banane);
   padding: 40px;
   border-radius: 30px 30px 30px 30px;
-  border-width: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: solid var(--pale) 10px;
+  /*box-shadow: 0 0 20px rgba(114, 66, 31, 0.572);*/
 }
 
 #jeu img {
