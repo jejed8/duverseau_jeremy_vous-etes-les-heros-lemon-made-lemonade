@@ -24,6 +24,7 @@ body {
   background-image: url(/assets/images/polka_dots.svg);
   stroke: #6c816b;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #jeu {

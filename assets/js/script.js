@@ -3,7 +3,7 @@ const chapters = {
     titre: "Prologue",
     description:
       "C'est l'été, Jimmy est pauvre et a besoin d'argent. Sa mère lui raconte qu'elle opérait un kiosque de limonade lorsqu'elle était jeune. Jimmy décide de s'y lancer. Jimmy fait du profit dès le premier jour! Son voisin, Rodrigue, est jaloux, il a entendu la conversation que Jimmy a eue avec sa mère et il a décidé de rivaliser avec Jimmy. Jimmy doit avoir le kiosque le plus populaire du coin.",
-    image: "",
+    image: "./assets/images/limonade.png",
     boutons: [{ titre: "Continuer", destination: "jour1" }],
   },
   jour1: {
@@ -30,7 +30,7 @@ const chapters = {
     titre: "J'ai trop d'argent",
     description:
       "Jimmy possède un peu plus d'argent. Il décide de prendre un supplément.",
-    image: "./assets/images/fruits-3.png",
+    image: "./assets/images/supplements.png",
     boutons: [
       { titre: "Sucre", destination: "interlude2" },
       { titre: "Menthe", destination: "interlude2" },
@@ -41,7 +41,7 @@ const chapters = {
     titre: "Jour 3",
     description:
       "Jimmy va au supermarché se procurer des aliments pour sa limonade. Il est inspiré par ce qu'on a raconté aux nouvelles hier. Que devrait-il prendre?",
-    image: "",
+    image: "./assets/images/fruits-3.png",
     boutons: [
       { titre: "Poires cactus", destination: "erreur4" },
       { titre: "Kiwis", destination: "jour3partie2" },
@@ -51,7 +51,7 @@ const chapters = {
   jour3partie2: {
     titre: "Il fait chaud!!",
     description: "Il fait 40˚C!! Les gens ont chaud! Avez-vous des glaçons?",
-    image: "",
+    image: "./assets/images/glacons.png",
     boutons: [
       { titre: "Oui", destination: "fin" },
       { titre: "Non", destination: "erreur5" },
@@ -61,7 +61,7 @@ const chapters = {
     titre: "Bravo!",
     description:
       "Bravo! Le kiosque de limonade à Jimmy a été le plus populaire pendant 3 jours consécutifs. Furieux, Rodrigue rentre chez lui.",
-    image: "",
+    image: "./assets/images/argent.png",
     boutons: [
       { titre: "Sortie", destination: "" },
       { titre: "Rejouer", destination: "debut" },
@@ -71,46 +71,46 @@ const chapters = {
     titre: "Interlude 1",
     description:
       "Jimmy remporte la journée avec le plus de limonade vendue. Il finit sa journée devant la télé. Aux nouvelles, on raconte qu'une évasion de singe a eu lieu.",
-    image: "",
+    image: "./assets/images/tv-singe.png",
     boutons: [{ titre: "Continuer", destination: "jour2" }],
   },
   interlude2: {
     titre: "Interlude 2",
     description:
-      "Jimmy remporte la journée avec le plus de limonade vendue. Il finit sa journée devant la télé. Aux nouvelles, on annonce une canicule et on raconte que le président s'est fait enlever par des extraterrestres.",
-    image: "",
+      "Jimmy remporte la journée avec le plus de limonade vendue. Il finit sa journée devant la télé. Aux nouvelles, on annonce une canicule et on raconte que le président s'est fait enlever par des extraterrestres pendant qu'il mangeait des peaux de fruit poilu.",
+    image: "./assets/images/tv-alien.png",
     boutons: [{ titre: "Continuer", destination: "jour3" }],
   },
   erreur1: {
     titre: "Echec",
     description: "La limonade de Rodrigue est plus populaire, Jimmy abandonne.",
-    image: "",
+    image: "./assets/images/rodrigue.png",
     boutons: [{ titre: "Réssayer", destination: "debut" }],
   },
   erreur2: {
     titre: "Echec",
     description: "La limonade de Rodrigue est plus populaire, Jimmy abandonne.",
-    image: "",
+    image: "./assets/images/rodrigue.png",
     boutons: [{ titre: "Réssayer", destination: "debut" }],
   },
   erreur3: {
-    titre: "",
+    titre: "Echec",
     description:
       "Rodrigue a vendu plus de limonade que toi. Il se moque de toi pour avoir pris des goyaves.",
-    image: "",
+    image: "./assets/images/rodrigue_goyaves.png",
     boutons: [{ titre: "Réssayer", destination: "debut" }],
   },
   erreur4: {
-    titre: "",
+    titre: "Echec",
     description:
       "Les extraterrestres ne sont pas d'accord avec cette décision. Ils capturent Jimmy.",
-    image: "",
+    image: "./assets/images/alien.png",
     boutons: [{ titre: "Réssayer", destination: "debut" }],
   },
   erreur5: {
-    titre: "",
+    titre: "Echec",
     description:
-      "La limonade n'est plus fraiche. Les clients la crachent et demandent à Jimmy de se faire rembourser.",
+      "La limonade n'est plus fraiche et les clients la crachent!! Ils demandent à Jimmy de se faire rembourser.",
     image: "",
     boutons: [{ titre: "Réssayer", destination: "debut" }],
   },
