@@ -2,7 +2,7 @@ const chapters = {
   debut: {
     titre: "Prologue",
     description:
-      "C'est l'été, Jimmy est pauvre et a besoin d'argent. Sa mère lui raconte qu'elle opérait un kiosque de limonade lorsqu'elle était jeune. Jimmy décide de s'y lancer. Jimmy fait du profit dès le premier jour! Son voisin, Rodrigue, est jaloux, il a entendu la conversation que Jimmy a eue avec sa mère et il a décidé de rivaliser avec Jimmy. Jimmy doit avoir le kiosque le plus populaire du coin.",
+      "C'est l'été, Jimmy est pauvre et a besoin d'argent. Sa mère lui raconte qu'elle opérait un kiosque de limonade lorsqu'elle était jeune. Jimmy décide de s'y lancer. Jimmy fait du profit dès le premier jour! Son voisin, Rodrigue, est jaloux, il a entendu la conversation que Jimmy a eue avec sa mère et il a décidé de rivaliser avec Jimmy. Il doit avoir le kiosque le plus populaire du coin.",
     image: "./assets/images/limonade.png",
     boutons: [{ titre: "Continuer", destination: "jour1" }],
   },
@@ -61,7 +61,7 @@ const chapters = {
     titre: "Bravo!",
     description:
       "Bravo! Le kiosque de limonade à Jimmy a été le plus populaire pendant 3 jours consécutifs. Furieux, Rodrigue rentre chez lui.",
-    image: "./assets/images/argent.png",
+    image: "./assets/videos/argent.mp4",
     boutons: [
       { titre: "Sortie", destination: "" },
       { titre: "Rejouer", destination: "debut" },
@@ -157,12 +157,49 @@ function goToChapter(chapterName) {
       buttonElement.textContent = button.titre;
 
       buttonElement.addEventListener("click", function () {
+        buttonSound();
+        saveProgress(button.destination);
         goToChapter(button.destination);
       });
 
       chapterButtons.appendChild(buttonElement);
+
     }
   }
 }
 
-goToChapter("debut");
+//goToChapter("debut");
+
+
+
+//sauvegarde progression
+function saveProgress(chapterName) {
+  localStorage.setItem("currentChapter", chapterName);
+}
+
+//charger progression
+function loadProgress() {
+  return localStorage.getItem("currentChapter") || "debut";
+}
+
+//partir le jeu
+function startGame() {
+  const currentChapter = loadProgress();
+  goToChapter(currentChapter);
+}
+
+//bouton reinitialiser
+let restartbutton = document.getElementById("restart");
+
+restartbutton.addEventListener("click", function () {
+  localStorage.clear();
+  goToChapter("debut");
+});
+
+//son de bouton
+function buttonSound() {
+  const son = new Audio("./assets/sons/pop-39222.mp3");
+  son.play();
+}
+
+startGame();

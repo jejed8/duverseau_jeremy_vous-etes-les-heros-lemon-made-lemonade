@@ -29,14 +29,15 @@ body {
 
 #jeu {
   min-width: 400px;
-  max-width: 900px;
+  max-width: 750px;
   min-height: 100px;
+  max-height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background-color: var(--banane);
-  padding: 40px;
+  padding: 30px;
   border-radius: 30px 30px 30px 30px;
   border: solid var(--pale) 10px;
   /*box-shadow: 0 0 20px rgba(114, 66, 31, 0.572);*/
@@ -48,7 +49,7 @@ body {
 }
 
 .barre-options {
-  padding-top: 50px;
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -56,7 +57,7 @@ body {
 }
 
 .image {
-  max-width: 600px;
+  max-width: 400px;
   border-radius: 15px 15px 15px 15px;
   padding: 15px;
 }
@@ -76,6 +77,8 @@ body {
   font-family: "LemonadeStand";
   font-size: 4em;
   color: var(--rouge);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .barre-options button {
@@ -95,4 +98,24 @@ body {
 
 .logo {
   width: 150px;
+}
+
+.bouton-restart {
+  position: absolute;
+  padding: 25px 50px;
+  background-color: var(--rouge);
+  color: var(--pale);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.2em;
+  top: 100px;
+  left: 100px;
+  border: solid var(--pale) 10px;
+}
+
+.bouton-restart:hover {
+  background-color: var(--pale);
+  color: var(--rouge);
+  border: solid var(--rouge) 10px;
 }
