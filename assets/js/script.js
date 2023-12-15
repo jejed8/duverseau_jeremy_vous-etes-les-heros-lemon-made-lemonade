@@ -53,8 +53,8 @@ const chapters = {
     description: "Il fait 40˚C!! Les gens ont chaud! Avez-vous des glaçons?",
     image: "./assets/images/glacons.png",
     boutons: [
-      { titre: "Oui", destination: "fin" },
-      { titre: "Non", destination: "erreur5" },
+      { titre: "Oui", destination: "fin", twist: true },
+      { titre: "Non", destination: "erreur5", twist: false},
     ],
   },
   fin: {
@@ -63,7 +63,6 @@ const chapters = {
       "Bravo! Le kiosque de limonade à Jimmy a été le plus populaire pendant 3 jours consécutifs. Furieux, Rodrigue rentre chez lui.",
     image: "./assets/videos/argent.mp4",
     boutons: [
-      { titre: "Sortie", destination: "" },
       { titre: "Rejouer", destination: "debut" },
     ],
   },
@@ -116,25 +115,6 @@ const chapters = {
   },
 };
 
-/*
-function goToChapter(chapitre) {
-    
-    if (chapters[chapitre]) {
-      const chap = chapters[chapitre];
-      console.log("Titre:", chap.titre);
-      console.log("Description:", chap.description);
-  
-      if (chap.boutons.length > 0) {
-        const destination = chap.boutons.map(button => button.destination);
-        console.log("Options", destination.join(", "));
-      } else {
-        console.log("fin");
-      }
-    } else {
-      console.error("Erreur. Veuillez entrer une clé de chapitre valide.");
-    }
-}
-*/
 
 function goToChapter(chapterName) {
   const chapter = chapters[chapterName];
@@ -157,7 +137,9 @@ function goToChapter(chapterName) {
       buttonElement.textContent = button.titre;
 
       buttonElement.addEventListener("click", function () {
-        buttonSound();
+        if(!inputMute.checked) {
+          buttonSound();
+        }
         saveProgress(button.destination);
         goToChapter(button.destination);
       });
@@ -203,3 +185,18 @@ function buttonSound() {
 }
 
 startGame();
+
+
+
+//bouton mute
+const inputMute = document.getElementById('mute');
+let onMute =  localStorage.getItem('onMute') === 'true';
+
+inputMute.checked = onMute;
+
+function toggleMute() {
+  onMute = !onMute;
+  localStorage.setItem('onMute', onMute);
+}
+
+inputMute.addEventListener('change', toggleMute);
