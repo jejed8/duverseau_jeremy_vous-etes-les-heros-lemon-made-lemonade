@@ -1,6 +1,6 @@
 @font-face {
   font-family: "LemonadeStand";
-  src: url("/assets/fonts/LemonadeStand.ttf") format("opentype");
+  src: url("./assets/fonts/LemonadeStand.ttf") format("opentype");
 }
 
 :root {
